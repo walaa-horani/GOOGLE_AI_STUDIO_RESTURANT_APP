@@ -1,0 +1,5 @@
+{
+  "name": "Bosphorus Woodfire Grill",
+  "description": "A modern, high-conversion landing page for Bosphorus Woodfire Grill, featuring an integrated table reservation system powered by Firebase Auth and Firestore.",
+  "requestFramePermissions": []
+}

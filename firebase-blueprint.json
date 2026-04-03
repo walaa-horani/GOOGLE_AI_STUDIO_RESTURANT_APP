@@ -1,0 +1,97 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "A user of the application.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "lastLoginAt": { "type": "timestamp" }
+      },
+      "required": ["uid", "email"]
+    },
+    "MenuItem": {
+      "title": "Menu Item",
+      "description": "An item on the restaurant menu.",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "price": { "type": "number" },
+        "category": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "createdAt": { "type": "timestamp" }
+      },
+      "required": ["title", "price", "category", "createdAt"]
+    },
+    "Reservation": {
+      "title": "Reservation",
+      "description": "A table reservation at the restaurant.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "The ID of the user who made the reservation."
+        },
+        "name": {
+          "type": "string",
+          "description": "The name of the person making the reservation."
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "The email address of the person making the reservation."
+        },
+        "date": {
+          "type": "string",
+          "description": "The date of the reservation (YYYY-MM-DD)."
+        },
+        "time": {
+          "type": "string",
+          "description": "The time of the reservation (HH:MM)."
+        },
+        "partySize": {
+          "type": "number",
+          "description": "The number of people in the party."
+        },
+        "specialRequests": {
+          "type": "string",
+          "description": "Any special requests or dietary requirements."
+        },
+        "status": {
+          "type": "string",
+          "enum": ["pending", "confirmed", "cancelled"],
+          "description": "The status of the reservation."
+        },
+        "createdAt": {
+          "type": "timestamp",
+          "description": "The time the reservation was created."
+        }
+      },
+      "required": ["userId", "name", "email", "date", "time", "partySize", "status", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": {
+        "$ref": "#/entities/User"
+      },
+      "description": "Stores user profiles."
+    },
+    "/menuItems/{itemId}": {
+      "schema": {
+        "$ref": "#/entities/MenuItem"
+      },
+      "description": "Stores menu items."
+    },
+    "/reservations/{reservationId}": {
+      "schema": {
+        "$ref": "#/entities/Reservation"
+      },
+      "description": "Stores all table reservations."
+    }
+  }
+}
