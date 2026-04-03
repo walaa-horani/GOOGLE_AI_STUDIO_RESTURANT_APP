@@ -1,0 +1,138 @@
+You are an expert local business web designer and conversion-focused landing page specialist.
+
+Create a polished, realistic, client-ready one-page website for this local business using the exact information provided below.
+
+This website must feel custom-made for this business and good enough to show directly to the business owner as a demo.
+
+The design should be modern, clean, mobile-friendly, visually strong, and focused on getting real actions such as phone calls, WhatsApp messages, bookings, quote requests, or visits.
+
+PRIMARY GOAL
+Make this business look trustworthy, professional, locally relevant, and easy to contact.
+
+CORE RULES
+- Use only the information provided.
+- Do not invent fake reviews, fake ratings, fake awards, fake years of experience, fake history, fake team members, fake statistics, or unsupported claims.
+- If some information is missing, simplify gracefully instead of making things up.
+- Keep the copy concise, natural, specific, and believable.
+- Do not create a generic AI-looking website.
+- Do not use filler content.
+- Do not bloat the page with unnecessary sections.
+- Prioritize clarity, trust, and conversion.
+
+DESIGN DIRECTION
+- Create a clean, premium, high-conversion layout.
+- Make the hero section strong and immediately useful.
+- Use clean spacing, clear hierarchy, and easy-to-scan sections.
+- Keep the website visually polished but realistic.
+- Match the style to the business type and brand style.
+- Prioritize mobile-first design.
+- Avoid startup-style jargon unless it genuinely fits the business.
+- Avoid clutter, overdesign, and flashy effects.
+
+COPY DIRECTION
+- Write like a real business website, not a marketing template.
+- Keep headlines clear and direct.
+- Keep body copy short.
+- Make every sentence relevant to this exact business.
+- Sound professional, trustworthy, and local.
+- Avoid hype and vague generic statements.
+
+BUILD THIS PAGE STRUCTURE
+
+1. HERO
+- Business name
+- Clear, business-specific headline
+- Short supporting copy
+- Primary CTA (Anchor link to Booking Section)
+- Secondary CTA
+- Local trust signal if available
+
+2. SERVICES
+- Show the main services clearly
+- Use short, scannable descriptions
+- Keep this section clean and useful
+
+3. ABOUT
+- Short introduction to the business
+- Explain what it offers and why a local customer may choose it
+- Mention the intimate/exclusive capacity of the venue.
+
+4. ONLINE BOOKING SECTION (CRITICAL)
+- Design a clean, user-friendly reservation form UI.
+- Fields needed: Name, Email, Phone, Date, Time, Number of Guests (up to maximum capacity).
+- Clear submit button emphasizing instant email confirmation.
+
+5. TRUST / WHY CHOOSE US
+- Use practical trust points based only on the provided information
+- Keep it believable and useful
+
+6. SOCIAL PROOF OR CREDIBILITY
+- Use testimonials only if provided
+- If no testimonials are provided, replace this with a simple credibility / reassurance section
+- Never invent reviews
+
+7. LOCATION / SERVICE AREA
+- Mention city, area, address, or service coverage if available
+- Reinforce local relevance
+
+8. CONTACT / ACTION
+- Make contacting the business feel immediate and easy
+- Include phone number
+- Include WhatsApp
+- Include email if available
+- Include address if available
+- Include strong CTA wording
+
+9. OPTIONAL FAQ
+- Include only if it truly helps this business type
+- Keep it short
+
+10. FOOTER
+- Clean footer
+- Business name
+- Available contact details
+- Address or city if available
+
+FUNCTIONAL REQUIREMENTS
+- Add a clickable Call action using the phone number.
+- Add a clickable WhatsApp action using the WhatsApp number.
+- Add a directions/location action if address or map data is available.
+- Make the main CTA in the hero section smoothly scroll down to the Online Booking form.
+- Provide UI state notes for the booking form (e.g., "Show success message: 'Booking received! Check your email for confirmation details'").
+- Ensure the page is responsive and works well on mobile.
+
+OUTPUT STANDARD
+The final result must feel:
+- custom-made
+- realistic
+- visually polished
+- locally relevant
+- easy to present as a demo
+- focused on real business conversion
+
+FINAL INSTRUCTION
+Generate the strongest possible version of this website for this exact local business with a focus on realism, trust, strong CTA placement, clean design, and client-ready presentation. Ensure the booking form UI clearly communicates the instant email confirmation feature.
+
+BUSINESS DETAILS
+Business Name: Bosphorus Woodfire Grill
+Business Type: Restaurant
+Tagline: Authentic Anatolian Flavors, Modern Istanbul Vibe.
+City / Area: Kadıköy, Istanbul
+Full Address: Caferağa Mah. Moda Cd. No: 123, Kadıköy, Istanbul, Türkiye
+Phone Number: +90 216 555 0123
+WhatsApp Number: +90 532 555 0199
+Email Address: reservations@bosphoruswoodfire.com
+Google Maps Link: https://goo.gl/maps/bosphorus-grill-demo
+Venue Capacity: 50 Guests (Intimate dining experience)
+Booking System Feature: Automated email confirmation with reservation details sent to the guest upon booking.
+Main Services: Wood-Fired Kebabs, Fresh Daily Meze Platters, Dry-Aged Steaks
+Secondary Services: Private Dining Events, Weekend Brunch, Corporate Catering
+Opening Hours: Monday - Sunday: 11:30 AM - 11:30 PM
+Business Description: Located in the vibrant heart of Kadıköy, Bosphorus Woodfire Grill brings a contemporary touch to traditional Turkish grill culture. With an exclusive capacity of just 50 guests, we offer an intimate dining experience. We source premium local ingredients daily and cook exclusively over open oak wood flames to deliver unforgettable, rich flavors in a warm, elegantly designed space.
+Unique Selling Points: 100% Oak wood-fire grill, Farm-to-table seasonal ingredients, Intimate 50-seat venue, Instant confirmed bookings.
+Testimonials / Reviews: "The best Iskender I've had on the Asian side. The atmosphere is incredibly warm and modern." - Ahmet Y. | "Perfect spot for a dinner date. The mezes are fresh and the service is top-notch." - Sarah M.
+Main CTA: Book Your Table
+Secondary CTA: View Full Menu
+Brand Style: Elegant, Warm, Modern Rustic. High-end but accessible, emphasizing high-quality food imagery, clean typography, and spacious layout.
+Primary Color: #8B0000 (Deep Crimson)
+Secondary Color: #FAF9F6 (Off-White)
