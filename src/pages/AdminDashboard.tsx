@@ -28,7 +28,7 @@ export default function AdminDashboard() {
   useEffect(() => {
     const unsub = onAuthStateChanged(auth, (u) => {
       setUser(u);
-      if (u && u.email === 'walaahorani09@gmail.com') {
+      if (u && u.email === 'your_Email_address') {
         setIsAdmin(true);
       } else {
         setIsAdmin(false);
